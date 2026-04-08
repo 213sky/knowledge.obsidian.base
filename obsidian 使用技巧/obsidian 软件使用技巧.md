@@ -3,24 +3,28 @@
 ## 推荐插件
 
 
-| 插件名                        | 说明                      | 使用方法                        |
-| -------------------------- | ----------------------- | --------------------------- |
-| Iconize                    | 用于为 obsidian 文件夹自定义图标   | 插件类可以选择图标库<br>邮件文件夹可以修改图标   |
-| custom-attachment-location | 用户管理 md 图片              |                             |
-| Enhancing Export           | 用于导出笔记为 html 、 word     |                             |
-| Image Toolkit              | 图片预览                    | 点击图片后能够预览图片                 |
-| Mousewheel Image Zoom      | 改变文档中图片大小               | 鼠标放于图片上  atl + 鼠标滚轮操作       |
-| Global Proxy               | 给 Obsidian 增加代理服务器配置的选项 |                             |
-| Manual Sorting             | 控制知识库文件、文件夹顺序           |                             |
-| Local Images Plus          | 对网页复制文字+图片时候，下载图片到本地    |                             |
-| Outliner                   | 文档内改变标题+内容顺序            | 大纲上面选中移动（慎用容易内容错乱）          |
-| Smart Composer             | AI 相关                   |                             |
-| Copilot                    | AI 相关                   |                             |
-| linter                     | 格式化 md 文档               |                             |
-| Link Remover               | 去除超链接                   | 选中文字右键能够去除，可以设置快捷键 crtl + \ |
-| Git                        | 管理知识库,提交到仓库             |                             |
-|                            |                         |                             |
-|                            |                         |                             |
+| 插件名                        | 说明                          | 使用方法                        |
+| -------------------------- | --------------------------- | --------------------------- |
+| 核心插件-斜杠命令                  | 当输入 / 时候能出现快捷方式             |                             |
+| Iconize                    | 用于为 obsidian 文件夹自定义图标       | 插件类可以选择图标库<br>邮件文件夹可以修改图标   |
+| custom-attachment-location | 用户管理 md 图片                  |                             |
+| Enhancing Export           | 用于导出笔记为 html 、 word         |                             |
+| Image Toolkit              | 图片预览                        | 点击图片后能够预览图片                 |
+| Mousewheel Image Zoom      | 改变文档中图片大小                   | 鼠标放于图片上  atl + 鼠标滚轮操作       |
+| Global Proxy               | 给 Obsidian 增加代理服务器配置的选项     |                             |
+| Manual Sorting             | 控制知识库文件、文件夹顺序               |                             |
+| Local Images Plus          | 对网页复制文字+图片时候，下载图片到本地        |                             |
+| Outliner                   | 文档内改变标题+内容顺序                | 大纲上面选中移动（慎用容易内容错乱）          |
+| Smart Composer             | AI 相关                       |                             |
+| Copilot                    | AI 相关                       |                             |
+| linter                     | 格式化 md 文档                   |                             |
+| Link Remover               | 去除超链接                       | 选中文字右键能够去除，可以设置快捷键 crtl + \ |
+| Git                        | 管理知识库,提交到仓库                 |                             |
+| Remotely Save              | 用于 obsidian 同步到类似 onedriver |                             |
+| Github sync                | 用于 obsidin 同步到 github       | windows mac                 |
+| GitHub Gitless Sync        | 用于 obsidin 同步到 github       | 手机能够安装                      |
+|                            |                             |                             |
+|                            |                             |                             |
 
 
 
@@ -80,10 +84,18 @@
 echo .obsidian/workspace.json >> .gitignore.
 echo .obsidian/workspace-mobile.json >> .gitignore.
 
-### 需要忽略 smart composer 插件， 否则提交 github public 仓库会拦截，由于其包含了 Google OAuth Client ID 和 Client Secret
-### base 仓库没有，其他知识库使用时候需要独立安装 smart composer
+### 提交 github public 仓库会拦截，由于其包含了 Google OAuth Client ID 和 Client Secret等敏感信息
+### base 仓库没有，其他知识库使用时候需要独立安装
+### smart composer
 .obsidian/plugins/smart-composer/
+### remotely save
+.obsidian/plugins/remotely-save/
 
+### github gitless sync 插件下会记录 github token 不建议提交
+.obsidian/plugins/github-gitless-sync/
+
+### 移除已提交内容
+git rm -r --cached .obsidian/plugins/remotely-save/
 
 ### windows
 echo # knowledge.obsidian.it >> README.md
