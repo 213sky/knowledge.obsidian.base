@@ -1,0 +1,109 @@
+{
+  "customOrder": {
+    "/": {
+      "children": [
+        "test.md",
+        "Clippings",
+        "copilot",
+        "obsidian 使用技巧",
+        "常用模板"
+      ],
+      "sortOrder": "custom"
+    },
+    "常用模板": {
+      "children": [
+        "常用模板/财务分析模板.md",
+        "常用模板/行业研报模板.md",
+        "常用模板/月报写作模板.md",
+        "常用模板/时间管理模板.md",
+        "常用模板/旅行计划模板.md",
+        "常用模板/待办事项模板.md",
+        "常用模板/头脑风暴模板.md",
+        "常用模板/SWOT 分析模板.md",
+        "常用模板/AI for Templater 日报写作模板.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Clippings": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "copilot": {
+      "children": [
+        "copilot/copilot-custom-prompts"
+      ],
+      "sortOrder": "custom"
+    },
+    "copilot/copilot-custom-prompts": {
+      "children": [
+        "copilot/copilot-custom-prompts/Clip Web Page.md",
+        "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+        "copilot/copilot-custom-prompts/Emojify.md",
+        "copilot/copilot-custom-prompts/Explain like I am 5.md",
+        "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+        "copilot/copilot-custom-prompts/Generate glossary.md",
+        "copilot/copilot-custom-prompts/Generate table of contents.md",
+        "copilot/copilot-custom-prompts/Make longer.md",
+        "copilot/copilot-custom-prompts/Make shorter.md",
+        "copilot/copilot-custom-prompts/Remove URLs.md",
+        "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+        "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+        "copilot/copilot-custom-prompts/Simplify.md",
+        "copilot/copilot-custom-prompts/Summarize.md",
+        "copilot/copilot-custom-prompts/Translate to Chinese.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "obsidian 使用技巧": {
+      "children": [
+        "obsidian 使用技巧/assets",
+        "obsidian 使用技巧/obsidian 软件使用技巧.md",
+        "obsidian 使用技巧/Obsidian + 大模型.md",
+        "obsidian 使用技巧/Obsidian 快捷键.md",
+        "obsidian 使用技巧/obsidian 问题处理.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "obsidian 使用技巧/assets": {
+      "children": [
+        "obsidian 使用技巧/assets/Obsidian + 大模型",
+        "obsidian 使用技巧/assets/obsidian 软件使用技巧",
+        "obsidian 使用技巧/assets/obsidian 问题处理"
+      ],
+      "sortOrder": "custom"
+    },
+    "obsidian 使用技巧/assets/Obsidian + 大模型": {
+      "children": [
+        "obsidian 使用技巧/assets/Obsidian + 大模型/3defd4a2a72f720b106db9d7306fb580_MD5.png",
+        "obsidian 使用技巧/assets/Obsidian + 大模型/69f97b14a3986e4bc8cc64a1af19689a_MD5.png",
+        "obsidian 使用技巧/assets/Obsidian + 大模型/82bad471f5d6f26ca2e8eb032515131e_MD5.jpg",
+        "obsidian 使用技巧/assets/Obsidian + 大模型/86d019b7de1dc74ba3af0edbb1b7d5c9_MD5.png",
+        "obsidian 使用技巧/assets/Obsidian + 大模型/388b3737537d01ea59a0e44aa2002e51_MD5.png",
+        "obsidian 使用技巧/assets/Obsidian + 大模型/df826d5ee98961ce8f9fe6f7f33bdc30_MD5.jpg",
+        "obsidian 使用技巧/assets/Obsidian + 大模型/file-20260331020931445.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "obsidian 使用技巧/assets/obsidian 软件使用技巧": {
+      "children": [
+        "obsidian 使用技巧/assets/obsidian 软件使用技巧/file-20260330222843820.png",
+        "obsidian 使用技巧/assets/obsidian 软件使用技巧/file-20260330222843823.png",
+        "obsidian 使用技巧/assets/obsidian 软件使用技巧/file-20260330222843825.png",
+        "obsidian 使用技巧/assets/obsidian 软件使用技巧/file-20260330222843827.png",
+        "obsidian 使用技巧/assets/obsidian 软件使用技巧/file-20260330222843829.png",
+        "obsidian 使用技巧/assets/obsidian 软件使用技巧/file-20260330222843831.png",
+        "obsidian 使用技巧/assets/obsidian 软件使用技巧/file-20260330234316590.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "obsidian 使用技巧/assets/obsidian 问题处理": {
+      "children": [
+        "obsidian 使用技巧/assets/obsidian 问题处理/file-20260331020729245.png"
+      ],
+      "sortOrder": "custom"
+    }
+  },
+  "sortOrder": "custom",
+  "debugMode": false,
+  "newItemPlacement": "top"
+}
