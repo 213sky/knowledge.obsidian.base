@@ -13,7 +13,7 @@
 | Global Proxy               | 给 Obsidian 增加代理服务器配置的选项 |                             |
 | Manual Sorting             | 控制知识库文件、文件夹顺序           |                             |
 | Local Images Plus          | 对网页复制文字+图片时候，下载图片到本地    |                             |
-| Outliner                   | 文档内改变标题+内容顺序            | 大纲上面选中移动                    |
+| Outliner                   | 文档内改变标题+内容顺序            | 大纲上面选中移动（慎用容易内容错乱）          |
 | Smart Composer             | AI 相关                   |                             |
 | Copilot                    | AI 相关                   |                             |
 | linter                     | 格式化 md 文档               |                             |

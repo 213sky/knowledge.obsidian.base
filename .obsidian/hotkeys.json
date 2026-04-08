@@ -1,0 +1,10 @@
+{
+  "hyperlink-remover:remove-links-from-selection": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
+    }
+  ]
+}
