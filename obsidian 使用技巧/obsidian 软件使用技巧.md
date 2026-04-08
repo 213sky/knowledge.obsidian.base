@@ -121,7 +121,7 @@ git push -u origin main
 ## 1. 获取 token
 https://github.com/settings/tokens
 ## 2. 建议选
-Fine-grained token（推荐）-> 没有token创建 -> Repository access → Only select repositories -> Generate token
+Fine-grained token（推荐）-> 没有token创建 -> Repository access → Only select repositories -> Generate token -> 权限选择 Contents
 
 ### 错误 error: src refspec main does not match any
 ## 可能未有提交，检查是否有更新 git status
@@ -151,7 +151,7 @@ Pull on startup
 
 ## github-gitless-sync 使用
 
-### 插件配置
+### 项目目录操作
 
 ```
 ### 项目目录创建 .gitless/manifest.json
@@ -160,8 +160,27 @@ Pull on startup
   "version": "1.0",
   "files": []
 }
+```
+
+### git 权限开放
+
+```
+### 网址
+https://github.com/settings/personal-access-tokens
+
+### 开启token
+Fine-grained token（推荐）-> 没有token创建 -> Repository access → Only select repositories -> Generate token -> 权限选择 Contents
+### token 及时复制，否则会消失，需要重新生成 token
+```
 
 
+### 插件配置
+
+```
+### 配置
+GitHub token : 配置生成的token
+Owner        : git 用户名
+Repository   : 仓库名称
 ```
 
 
