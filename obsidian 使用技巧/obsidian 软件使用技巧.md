@@ -77,8 +77,8 @@
 .obsidian/workspace-mobile.json
 
 ## 命令windows
-echo .obsidian/workspace.json >> .gitgnore.
-echo .obsidian/workspace-mobile.json >> .gitgnore.
+echo .obsidian/workspace.json >> .gitignore.
+echo .obsidian/workspace-mobile.json >> .gitignore.
 
 ### 需要忽略 smart composer 插件， 否则提交 github public 仓库会拦截，由于其包含了 Google OAuth Client ID 和 Client Secret
 ### base 仓库没有，其他知识库使用时候需要独立安装 smart composer
