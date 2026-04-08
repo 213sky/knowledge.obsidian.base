@@ -149,6 +149,20 @@ Pull on startup
 ```
 
 
+## github-gitless-sync 使用
+
+### 插件配置
+
+```
+### 项目目录创建 .gitless/manifest.json
+### 文件内容
+{
+  "version": "1.0",
+  "files": []
+}
+
+
+```
 
 
 ## custom-attachment-location 安装与使用
