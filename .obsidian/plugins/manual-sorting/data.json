@@ -2,7 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
-        "test.md",
+        "README.md",
         "Clippings",
         "copilot",
         "obsidian 使用技巧",

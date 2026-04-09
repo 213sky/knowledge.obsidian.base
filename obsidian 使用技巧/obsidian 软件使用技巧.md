@@ -7,7 +7,7 @@
 | -------------------------- | --------------------------- | --------------------------- |
 | 核心插件-斜杠命令                  | 当输入 / 时候能出现快捷方式             |                             |
 | Iconize                    | 用于为 obsidian 文件夹自定义图标       | 插件类可以选择图标库<br>邮件文件夹可以修改图标   |
-| custom-attachment-location | 用户管理 md 图片                  |                             |
+| custom-attachment-location | 用于管理 md 图片                  |                             |
 | Enhancing Export           | 用于导出笔记为 html 、 word         |                             |
 | Image Toolkit              | 图片预览                        | 点击图片后能够预览图片                 |
 | Mousewheel Image Zoom      | 改变文档中图片大小                   | 鼠标放于图片上  atl + 鼠标滚轮操作       |
