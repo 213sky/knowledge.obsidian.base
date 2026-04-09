@@ -1,6 +1,5 @@
 [
   "obsidian-icon-folder",
-  "obsidian-custom-attachment-location",
   "obsidian-enhancing-export",
   "obsidian-linter",
   "obsidian-outliner",
@@ -11,8 +10,8 @@
   "global-proxy",
   "copilot",
   "manual-sorting",
-  "obsidian-local-images-plus",
   "copy-document-as-html",
   "hyperlink-remover",
-  "obsidian-git"
+  "obsidian-git",
+  "attachment-manager"
 ]
