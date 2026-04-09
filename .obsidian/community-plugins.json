@@ -13,5 +13,6 @@
   "copy-document-as-html",
   "hyperlink-remover",
   "obsidian-git",
-  "attachment-manager"
+  "obsidian-custom-attachment-location",
+  "obsidian-local-images-plus"
 ]

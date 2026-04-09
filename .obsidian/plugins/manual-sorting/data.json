@@ -2,14 +2,30 @@
   "customOrder": {
     "/": {
       "children": [
-        "test.md_Attachments",
-        "test.md",
+        "测试",
         "README.md",
         "Clippings",
         "copilot",
         "obsidian 使用技巧",
         "常用模板"
       ],
+      "sortOrder": "custom"
+    },
+    "测试": {
+      "children": [
+        "测试/assets",
+        "测试/test.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "测试/assets": {
+      "children": [
+        "测试/assets/test"
+      ],
+      "sortOrder": "custom"
+    },
+    "测试/assets/test": {
+      "children": [],
       "sortOrder": "custom"
     },
     "常用模板": {
@@ -101,12 +117,6 @@
     "obsidian 使用技巧/assets/obsidian 问题处理": {
       "children": [
         "obsidian 使用技巧/assets/obsidian 问题处理/file-20260331020729245.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "test.md_Attachments": {
-      "children": [
-        "test.md_Attachments/test-20260410011122346.png"
       ],
       "sortOrder": "custom"
     }
