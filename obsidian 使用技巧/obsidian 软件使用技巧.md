@@ -217,6 +217,23 @@ assets/${noteFileName}/${generatedAttachmentFilename}
 ```
 
 
+## local-images-plus 安装与使用
+
+与  custom-attachment-location 配合使用时候需要做相关配置
+
+### 插件配置
+
+```
+--- How to write pahts in tags
+--- 控制 image 路劲编写，只需要写 assets/ 下
+选择 -> Relative to note
+
+--- Process all new attachments
+--- 禁止 LIP 移动本地已有附件，避免与 CAL 争抢
+勾选 -> 否
+
+```
+
 
 
 ## Enhancing Export 安装与使用
