@@ -2,6 +2,8 @@
   "customOrder": {
     "/": {
       "children": [
+        "test.md_Attachments",
+        "test.md",
         "README.md",
         "Clippings",
         "copilot",
@@ -99,6 +101,12 @@
     "obsidian 使用技巧/assets/obsidian 问题处理": {
       "children": [
         "obsidian 使用技巧/assets/obsidian 问题处理/file-20260331020729245.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "test.md_Attachments": {
+      "children": [
+        "test.md_Attachments/test-20260410011122346.png"
       ],
       "sortOrder": "custom"
     }
