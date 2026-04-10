@@ -307,4 +307,4 @@ https://github.com/jgm/pandoc/releases/tag/3.9.0.2
 # Obsidian Web Clipper
 ```
 
-![](assets/obsidian%20软件使用技巧/file-202603302228438
+![](assets/obsidian%20软件使用技巧/file-20260330222843823.png)
