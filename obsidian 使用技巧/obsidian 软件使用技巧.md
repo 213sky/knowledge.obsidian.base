@@ -219,7 +219,7 @@ assets/${noteFileName}/${generatedAttachmentFilename}
 
 ## local-images-plus 安装与使用
 
-与  custom-attachment-location 配合使用时候需要做相关配置
+与  custom-attachment-location 配合使用时候需要做相关配置，让 local-images-plus 只负责下载文件
 
 ### 插件配置
 
@@ -307,4 +307,4 @@ https://github.com/jgm/pandoc/releases/tag/3.9.0.2
 # Obsidian Web Clipper
 ```
 
-![](assets/obsidian%20软件使用技巧/file-20260330222843823.png)
+![](assets/obsidian%20软件使用技巧/file-202603302228438

@@ -13,19 +13,8 @@
     },
     "测试": {
       "children": [
-        "测试/assets",
         "测试/test.md"
       ],
-      "sortOrder": "custom"
-    },
-    "测试/assets": {
-      "children": [
-        "测试/assets/test"
-      ],
-      "sortOrder": "custom"
-    },
-    "测试/assets/test": {
-      "children": [],
       "sortOrder": "custom"
     },
     "常用模板": {
@@ -104,6 +93,8 @@
     },
     "obsidian 使用技巧/assets/obsidian 软件使用技巧": {
       "children": [
+        "obsidian 使用技巧/assets/obsidian 软件使用技巧/4b0d8c652079e90fd70a9d00ff85b5e8_MD5.webp",
+        "obsidian 使用技巧/assets/obsidian 软件使用技巧/ed2f5db23adff73a3acbd5a4136fb7d3_MD5.webp",
         "obsidian 使用技巧/assets/obsidian 软件使用技巧/file-20260330222843820.png",
         "obsidian 使用技巧/assets/obsidian 软件使用技巧/file-20260330222843823.png",
         "obsidian 使用技巧/assets/obsidian 软件使用技巧/file-20260330222843825.png",
