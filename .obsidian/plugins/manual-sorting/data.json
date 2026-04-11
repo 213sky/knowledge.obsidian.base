@@ -2,18 +2,11 @@
   "customOrder": {
     "/": {
       "children": [
-        "测试",
         "README.md",
         "Clippings",
         "copilot",
         "obsidian 使用技巧",
         "常用模板"
-      ],
-      "sortOrder": "custom"
-    },
-    "测试": {
-      "children": [
-        "测试/test.md"
       ],
       "sortOrder": "custom"
     },
